@@ -19,6 +19,10 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'linkedservice1'"
 		},
+		"ls_AzureSqlDatabase2_param_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'ls_AzureSqlDatabase2_param'"
+		},
 		"AzureDataLakeStorage1_properties_typeProperties_url": {
 			"type": "string",
 			"defaultValue": "https://adlsibibo.dfs.core.windows.net/"
@@ -66,6 +70,9 @@
 					},
 					"linkedservice1_connectionString": {
 						"value": "[parameters('linkedservice1_connectionString')]"
+					},
+					"ls_AzureSqlDatabase2_param_connectionString": {
+						"value": "[parameters('ls_AzureSqlDatabase2_param_connectionString')]"
 					},
 					"AzureDataLakeStorage1_properties_typeProperties_url": {
 						"value": "[parameters('AzureDataLakeStorage1_properties_typeProperties_url')]"

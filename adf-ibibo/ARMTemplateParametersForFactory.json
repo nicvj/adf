@@ -14,6 +14,9 @@
 		"linkedservice1_connectionString": {
 			"value": ""
 		},
+		"ls_AzureSqlDatabase2_param_connectionString": {
+			"value": ""
+		},
 		"AzureDataLakeStorage1_properties_typeProperties_url": {
 			"value": "https://adlsibibo.dfs.core.windows.net/"
 		},
