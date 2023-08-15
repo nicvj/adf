@@ -20,6 +20,15 @@
 		"AzureDataLakeStorage1_properties_typeProperties_url": {
 			"value": "https://adlsibibo.dfs.core.windows.net/"
 		},
+		"param_triggers_properties_pipeline2_copy4_parameters_dbname": {
+			"value": "db-ibibo"
+		},
+		"param_triggers_properties_pipeline2_copy4_parameters_schemaname": {
+			"value": "dbo"
+		},
+		"param_triggers_properties_pipeline2_copy4_parameters_tablename": {
+			"value": "result"
+		},
 		"trigger1_properties_pipeline1_parameters_Schema": {
 			"value": "dbo"
 		},

@@ -27,6 +27,18 @@
 			"type": "string",
 			"defaultValue": "https://adlsibibo.dfs.core.windows.net/"
 		},
+		"param_triggers_properties_pipeline2_copy4_parameters_dbname": {
+			"type": "string",
+			"defaultValue": "db-ibibo"
+		},
+		"param_triggers_properties_pipeline2_copy4_parameters_schemaname": {
+			"type": "string",
+			"defaultValue": "dbo"
+		},
+		"param_triggers_properties_pipeline2_copy4_parameters_tablename": {
+			"type": "string",
+			"defaultValue": "result"
+		},
 		"trigger1_properties_pipeline1_parameters_Schema": {
 			"type": "string",
 			"defaultValue": "dbo"
@@ -76,6 +88,15 @@
 					},
 					"AzureDataLakeStorage1_properties_typeProperties_url": {
 						"value": "[parameters('AzureDataLakeStorage1_properties_typeProperties_url')]"
+					},
+					"param_triggers_properties_pipeline2_copy4_parameters_dbname": {
+						"value": "[parameters('param_triggers_properties_pipeline2_copy4_parameters_dbname')]"
+					},
+					"param_triggers_properties_pipeline2_copy4_parameters_schemaname": {
+						"value": "[parameters('param_triggers_properties_pipeline2_copy4_parameters_schemaname')]"
+					},
+					"param_triggers_properties_pipeline2_copy4_parameters_tablename": {
+						"value": "[parameters('param_triggers_properties_pipeline2_copy4_parameters_tablename')]"
 					},
 					"trigger1_properties_pipeline1_parameters_Schema": {
 						"value": "[parameters('trigger1_properties_pipeline1_parameters_Schema')]"
