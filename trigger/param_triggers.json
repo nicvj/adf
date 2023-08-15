@@ -1,0 +1,37 @@
+{
+	"name": "param_triggers",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "pipeline2_copy4",
+					"type": "PipelineReference"
+				},
+				"parameters": {
+					"dbname": "db-ibibo",
+					"schemaname": "dbo",
+					"tablename": "result"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Day",
+				"interval": 1,
+				"startTime": "2023-08-15T13:41:00Z",
+				"timeZone": "UTC",
+				"schedule": {
+					"minutes": [
+						45
+					],
+					"hours": [
+						13
+					]
+				}
+			}
+		}
+	}
+}
