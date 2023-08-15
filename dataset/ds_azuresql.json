@@ -1,0 +1,27 @@
+{
+	"name": "ds_azuresql",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "linkedservice1",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"Schema": {
+				"type": "string",
+				"defaultValue": "dbo"
+			},
+			"TableName": {
+				"type": "string",
+				"defaultValue": "any"
+			}
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "dest"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

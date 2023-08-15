@@ -1,0 +1,14 @@
+{
+	"name": "adf-ibibo",
+	"properties": {
+		"globalConfigurations": {
+			"PipelineBillingEnabled": "false"
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "6f912622-f8e0-4282-9c5d-ecf669624f7e",
+		"tenantId": "f087aef4-3fa4-4d3e-a5a8-01bae9d02ff8"
+	}
+}
